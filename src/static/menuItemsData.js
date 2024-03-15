@@ -1,11 +1,15 @@
 export const menuItemsData = [
     {
-        title: 'Home',
-        url: '/',
+        title: 'About Us',
+        url: '/about-us',
     },
     {
-        title: 'Services',
-        url: '/services',
+        title: 'Panchkarma',
+        url: '/panchkarma',
+    },
+    {
+        title: 'Treatments',
+        url: '/Treatments',
         submenu: [
             {
                 title: 'Web Design',
@@ -21,16 +25,17 @@ export const menuItemsData = [
                     },
                     {
                         title: 'Backend',
-                        submenu: [
-                            {
-                                title: 'NodeJS',
-                                url: '/node',
-                            },
-                            {
-                                title: 'PHP',
-                                url: '/php',
-                            },
-                        ],
+                        url: '/backend',
+                        // submenu: [
+                        //     {
+                        //         title: 'NodeJS',
+                        //         url: '/node',
+                        //     },
+                        //     {
+                        //         title: 'PHP',
+                        //         url: '/php',
+                        //     },
+                        // ],
                     },
                 ],
             },
