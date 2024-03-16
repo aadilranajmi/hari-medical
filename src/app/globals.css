@@ -105,11 +105,12 @@ a {
     padding: 10px 20px;
 }
 
-.logo {
+.main-header .logo {
     text-decoration: none;
     font-size: 25px;
     color: inherit;
     margin-right: 20px;
+    line-height: 1;
 }
 .nav-area .nav-left {
     display: flex;
@@ -290,6 +291,57 @@ a {
     }
 }
 
+/* footer css */
+.footer {
+    background: #252525;
+    color: #fff;
+    margin-top: 1rem;
+}
+.footer .footerMain {
+    padding: 1.5rem 0;
+    display: flex;
+    gap: 3rem;
+}
+.footer .footerMain p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+.footer .footerMain .footerGeneral p {
+    margin-top: 1rem;
+}
+.footer .footerMain .heading {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+.footer .footerMain .footerQuickLinks ul {
+    list-style: none;
+    width: 250px;
+    max-width: 100%;
+}
+.footer .footerMain .footerQuickLinks ul li a {
+    display: inline-block;
+    font-size: 15px;
+    margin-bottom: 0.5rem;
+}
+.footer .footerMain .footerAbout {
+    width: 250px;
+    max-width: 100%;
+}
+.footer .footerMain .footerAbout ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.footer .footerMain .footerAbout ul a svg:hover {
+    color: #dd55a9;
+}
+.footer .footerBottom {
+    background: #000;
+    text-align: center;
+    font-size: 12px;
+    padding: 0.5rem;
+}
 .container {
     width: 1140px;
     margin: 0 auto;
@@ -479,13 +531,15 @@ a {
     width: 200px;
     padding: 1.5rem 1rem;
     border-radius: 8px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .homeFaq {
     padding: 2rem 0;
 }
-.homeFaq h2, .homeFaq h3 {
+.homeFaq h2,
+.homeFaq h3 {
     text-align: center;
 }
 .homeFaq h3 {

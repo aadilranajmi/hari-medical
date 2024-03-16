@@ -11,7 +11,6 @@ import WhyAyurveda from '@/components/Home/WhyAyurveda';
 export default function Home() {
     return (
         <main>
-            <Header />
             <HeroSection />
             <TreatmentWorks />
             <WelcomeHome />

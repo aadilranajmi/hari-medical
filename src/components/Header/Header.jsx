@@ -7,13 +7,14 @@ import MobileNav from './MobileNav';
 
 //material ui
 import { Button, Hidden } from '@mui/material';
+import Image from 'next/image';
 
 const Header = () => {
     return (
         <header className="main-header">
             <div className="nav-area">
                 <Link href="/" className="logo">
-                    Logo
+                    <Image src="/images/hari-medical-logo.png" width={165} height={45} alt='Hari Medical Logo' />
                 </Link>
 
                 <div className="nav-left">
