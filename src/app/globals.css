@@ -301,6 +301,11 @@ a {
     }
 }
 
+.defaultPara {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
 /* override style */
 .MuiTypography-root.MuiTypography-h2 {
     font-size: 1.75rem;
@@ -338,8 +343,6 @@ a {
     width: 130px;
 }
 .treatmentWorkMain .treatmentWorkMainContent p {
-    font-size: 14px;
-    line-height: 1.5;
     text-align: center;
 }
 .treatmentWorkMain .treatmentWorkMainContent::after {
@@ -354,4 +357,76 @@ a {
 }
 .treatmentWorkMain .treatmentWorkMainContent:last-child:after {
     display: none;
+}
+
+/* welcomeHom */
+.welcomeHome {
+    padding: 2rem 0;
+    background: #fff6ee;
+}
+.welcomeHome h2 span {
+    color: #dd55a9;
+}
+.welcomeHome .welcomeHomePara {
+    width: 600px;
+    max-width: 100%;
+    margin: 1rem 0 1.5rem;
+}
+.welcomeHome .welcomeHomeList {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+.welcomeHome .welcomeHomeList li {
+    background: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 180px;
+    padding: 1rem;
+}
+.welcomeHome .welcomeHomeList li span {
+    font-size: 13px;
+    line-height: 1.5;
+    text-align: center;
+}
+.welcomeHome .welcomeHomeCta {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+/* serviceHome */
+.serviceHome {
+    padding: 2rem 0;
+    position: relative;
+}
+.serviceHome h2 {
+    margin-bottom: 1rem;
+}
+.serviceHome h2 span {
+    color: #dd55a9;
+}
+.serviceHome p {
+    margin-bottom: 0.5rem;
+}
+.serviceHome .serviceHomeMain {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.serviceHome .serviceHomeMain .serviceHomeMainCard {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+}
+.serviceHome .serviceHomeMain .serviceHomeMainCard .serviceImg {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
 }

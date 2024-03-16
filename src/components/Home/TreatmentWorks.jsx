@@ -14,7 +14,7 @@ const TreatmentWorks = () => {
                     {treatmentData.map((item) => (
                         <li className="treatmentWorkMainContent">
                             <div className="mainCircle"></div>
-                            <p>{item.title}</p>
+                            <p className='defaultPara'>{item.title}</p>
                         </li>
                     ))}
                 </ul>
