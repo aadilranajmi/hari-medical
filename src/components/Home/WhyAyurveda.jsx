@@ -33,6 +33,7 @@ const WhyAyurveda = () => {
                             src="/images/why_ayurveda.png"
                             width={440}
                             height={360}
+                            alt='Best Ayurvedic Doctors In Faridabad'
                         />
                     </div>
                 </div>

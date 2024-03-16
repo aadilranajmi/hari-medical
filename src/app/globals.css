@@ -481,3 +481,40 @@ a {
     border-radius: 8px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
+
+.homeFaq {
+    padding: 2rem 0;
+}
+.homeFaq h2, .homeFaq h3 {
+    text-align: center;
+}
+.homeFaq h3 {
+    font-size: 12px;
+    color: #68635f;
+    margin-top: 0.5rem;
+}
+.homeFaq .homeFaqMain {
+    width: 900px;
+    max-width: 100%;
+    margin: 2rem auto 0;
+}
+.homeBlog {
+    padding: 2rem 0;
+}
+.homeBlog h2 {
+    text-align: center;
+}
+.homeBlog .homeBlogMain {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    gap: 2rem;
+}
+.homeBlog .homeBlogMain .homeBlogMainCard {
+    width: 250px;
+}
+.homeBlog .homeBlogMain .homeBlogMainCard h3 {
+    font-size: 1rem;
+    text-align: left;
+    margin: 0.5rem 0;
+}

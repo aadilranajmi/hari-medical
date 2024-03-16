@@ -21,9 +21,9 @@ const HeroSection = () => {
             modules={[Pagination]}
             className="mySwiper"
         >
-            {heroData.map((item, index) => <SwiperSlide>
+            {heroData.map((item, index) => <SwiperSlide key={item.uid}>
                 <div className={style.heroContent}>
-                    <Image src={item.imgUrl} fill />
+                    <Image src={item.imgUrl} fill alt={item.heading} />
                     <div className={style.heroContentMain}>
                         <h6>
                             {item.heading}

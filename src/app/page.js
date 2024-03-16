@@ -1,6 +1,8 @@
 import Header from '@/components/Header/Header';
 import BestDoctor from '@/components/Home/BestDoctor';
 import HeroSection from '@/components/Home/HeroSection';
+import HomeBlog from '@/components/Home/HomeBlog';
+import HomeFaq from '@/components/Home/HomeFaq';
 import ServiceHome from '@/components/Home/ServiceHome';
 import TreatmentWorks from '@/components/Home/TreatmentWorks';
 import WelcomeHome from '@/components/Home/WelcomeHome';
@@ -16,6 +18,8 @@ export default function Home() {
             <ServiceHome />
             <WhyAyurveda />
             <BestDoctor />
+            <HomeFaq />
+            <HomeBlog />
         </main>
     );
 }

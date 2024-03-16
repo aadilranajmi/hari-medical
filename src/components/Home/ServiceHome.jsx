@@ -21,7 +21,7 @@ const ServiceHome = () => {
                     {serviceData.map((item) => (
                         <div className="serviceHomeMainCard" key={item.uid}>
                             <div className="serviceImg">
-                                <Image src={item.imgUrl} fill />
+                                <Image src={item.imgUrl} fill alt={item.title}/>
                             </div>
                             <p className='defaultPara'>{item.title}</p>
                         </div>

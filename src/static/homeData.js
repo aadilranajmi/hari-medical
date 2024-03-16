@@ -169,4 +169,46 @@ export const homeData = {
             title: 'We Stay In Constant Connect With You To Ensure Lasting Results',
         },
     ],
+    faq: [
+        {
+            uid: uuid(),
+            question: 'What is Shree Hari Medical Center',
+            answer: 'Ayurveda is the time tested ancient system of medicine which helps to maintain a healthy body and mind. It is a science that not only addresses bodily infirmity but encourages social, spiritual, emotional and psychological well being. Thus it is the system that not only cures the diseases but also works to help people arrive at perfect health. It is the HOLISTIC healing system of medicine, practised in India for more than 5000 years.',
+        },
+        {
+            uid: uuid(),
+            question: 'What is Ayurveda?',
+            answer: 'Ayurveda is the time tested ancient system of medicine which helps to maintain a healthy body and mind. It is a science that not only addresses bodily infirmity but encourages social, spiritual, emotional and psychological well being. Thus it is the system that not only cures the diseases but also works to help people arrive at perfect health. It is the HOLISTIC healing system of medicine, practised in India for more than 5000 years.',
+        },
+        {
+            uid: uuid(),
+            question: 'How Old Is Shree Hari Medical Center?',
+            answer: 'Ayurveda is the time tested ancient system of medicine which helps to maintain a healthy body and mind. It is a science that not only addresses bodily infirmity but encourages social, spiritual, emotional and psychological well being. Thus it is the system that not only cures the diseases but also works to help people arrive at perfect health. It is the HOLISTIC healing system of medicine, practised in India for more than 5000 years.',
+        },
+        {
+            uid: uuid(),
+            question: 'Do you have Panchkarma facility?',
+            answer: 'Ayurveda is the time tested ancient system of medicine which helps to maintain a healthy body and mind. It is a science that not only addresses bodily infirmity but encourages social, spiritual, emotional and psychological well being. Thus it is the system that not only cures the diseases but also works to help people arrive at perfect health. It is the HOLISTIC healing system of medicine, practised in India for more than 5000 years.',
+        },
+    ],
+    blogs: [
+        {
+            uid: uuid(),
+            imgUrl: '/images/remedies.jpg',
+            title: '10 Home Remedies That Work Wonders For IBS',
+            para: 'Irritable bowel syndrome, or grahani roga, is a common disorder that affects our digestive system. Grahani roga is a condition that you will need to manage on a long-term basis as the signs and symptoms...',
+        },
+        {
+            uid: uuid(),
+            imgUrl: '/images/remedies.jpg',
+            title: '10 Home Remedies That Work Wonders For IBS',
+            para: 'Irritable bowel syndrome, or grahani roga, is a common disorder that affects our digestive system. Grahani roga is a condition that you will need to manage on a long-term basis as the signs and symptoms...',
+        },
+        {
+            uid: uuid(),
+            imgUrl: '/images/remedies.jpg',
+            title: '10 Home Remedies That Work Wonders For IBS',
+            para: 'Irritable bowel syndrome, or grahani roga, is a common disorder that affects our digestive system. Grahani roga is a condition that you will need to manage on a long-term basis as the signs and symptoms...',
+        },
+    ],
 };
