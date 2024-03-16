@@ -137,4 +137,36 @@ export const homeData = {
             title: 'Ayurvedic Massage',
         },
     ],
+    bestDoctor: [
+        {
+            uid: uuid(),
+            imgUrl: '/images/services/potli_sek_therapie.jpg',
+            title: '67% Symptomatic Relief In Just 2 Weeks.',
+        },
+        {
+            uid: uuid(),
+            imgUrl: '/images/services/jal_chikitsa_therapie.jpg',
+            title: 'Average Weight Reduction Of 5 Kgs In Just 14 Days',
+        },
+        {
+            uid: uuid(),
+            imgUrl: '/images/services/teil_shirodhara.jpg',
+            title: 'Leading Ayurveda Clinic For Panchakarma Treatments.',
+        },
+        {
+            uid: uuid(),
+            imgUrl: '/images/services/mitti_shirodhara.jpg',
+            title: 'The Best Kerala Style Ayurvedatherapies To Get Optimum Results.',
+        },
+        {
+            uid: uuid(),
+            imgUrl: '/images/services/vasti_therapie.jpg',
+            title: 'We Look After Your Entire Lifestyle Improvements',
+        },
+        {
+            uid: uuid(),
+            imgUrl: '/images/services/enema_panchakarma.jpg',
+            title: 'We Stay In Constant Connect With You To Ensure Lasting Results',
+        },
+    ],
 };
