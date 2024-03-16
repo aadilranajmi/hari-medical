@@ -1,4 +1,5 @@
 import Header from '@/components/Header/Header';
+import BestDoctor from '@/components/Home/BestDoctor';
 import HeroSection from '@/components/Home/HeroSection';
 import ServiceHome from '@/components/Home/ServiceHome';
 import TreatmentWorks from '@/components/Home/TreatmentWorks';
@@ -14,6 +15,7 @@ export default function Home() {
             <WelcomeHome />
             <ServiceHome />
             <WhyAyurveda />
+            <BestDoctor />
         </main>
     );
 }

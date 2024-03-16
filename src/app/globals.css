@@ -430,3 +430,29 @@ a {
     height: 160px;
     margin: 0 auto;
 }
+.whyAyurveda {
+    padding: 2rem 0;
+    background: #fff6ee;
+}
+.whyAyurveda .whyAyurvedaMain {
+    display: grid;
+    grid-template-columns: 50% calc(50% - 2rem);
+    gap: 2rem;
+    align-items: flex-start;
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.whyAyurveda .whyAyurvedaMain h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.whyAyurveda .whyAyurvedaMain .lastHeading {
+    margin-top: 1.5rem;
+}
+.whyAyurveda .whyAyurvedaMain .whyAyurvedaMainImage {
+    position: relative;
+}
+.whyAyurveda .whyAyurvedaMain .whyAyurvedaMainImage img {
+    object-fit: contain;
+}

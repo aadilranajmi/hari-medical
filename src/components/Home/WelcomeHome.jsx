@@ -1,5 +1,5 @@
 import { homeData } from '@/static/homeData';
-import SendIcon from '@mui/icons-material/Send';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import { Button } from '@mui/material';
 
 const WelcomeHome = () => {
@@ -29,12 +29,12 @@ const WelcomeHome = () => {
                 <div className="welcomeHomeCta">
                     <Button
                         variant="contained"
-                        endIcon={<SendIcon />}
+                        endIcon={<ArrowForwardIosIcon />}
                         sx={{
                             background: '#2a2929',
-                            "&:hover": {
-                                background: "#000"
-                            }
+                            '&:hover': {
+                                background: '#dd55a9',
+                            },
                         }}
                     >
                         Learn More
