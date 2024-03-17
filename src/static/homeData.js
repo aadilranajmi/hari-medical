@@ -140,32 +140,32 @@ export const homeData = {
     bestDoctor: [
         {
             uid: uuid(),
-            imgUrl: '/images/services/potli_sek_therapie.jpg',
+            imgUrl: '/images/bestDoctor/symptomatic_relief.jpg',
             title: '67% Symptomatic Relief In Just 2 Weeks.',
         },
         {
             uid: uuid(),
-            imgUrl: '/images/services/jal_chikitsa_therapie.jpg',
+            imgUrl: '/images/bestDoctor/weight_reduction.jpg',
             title: 'Average Weight Reduction Of 5 Kgs In Just 14 Days',
         },
         {
             uid: uuid(),
-            imgUrl: '/images/services/teil_shirodhara.jpg',
+            imgUrl: '/images/bestDoctor/leading_ayurveda_clinic.jpg',
             title: 'Leading Ayurveda Clinic For Panchakarma Treatments.',
         },
         {
             uid: uuid(),
-            imgUrl: '/images/services/mitti_shirodhara.jpg',
+            imgUrl: '/images/bestDoctor/best_kerela_style.jpg',
             title: 'The Best Kerala Style Ayurvedatherapies To Get Optimum Results.',
         },
         {
             uid: uuid(),
-            imgUrl: '/images/services/vasti_therapie.jpg',
+            imgUrl: '/images/bestDoctor/entire_lifestyle_improvements.jpg',
             title: 'We Look After Your Entire Lifestyle Improvements',
         },
         {
             uid: uuid(),
-            imgUrl: '/images/services/enema_panchakarma.jpg',
+            imgUrl: '/images/bestDoctor/constant_connect.jpg',
             title: 'We Stay In Constant Connect With You To Ensure Lasting Results',
         },
     ],

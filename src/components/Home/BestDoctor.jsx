@@ -1,4 +1,5 @@
 import { homeData } from '@/static/homeData';
+import Image from 'next/image';
 import React from 'react';
 
 const BestDoctor = () => {
@@ -18,7 +19,9 @@ const BestDoctor = () => {
                     </div>
                     {bestDoctorData.map((item) => (
                         <div className="bestDoctorMainCard" key={item.uid}>
-                            <div className="mainCircle"></div>
+                            <div className="bestDoctorMainCardImg">
+                                <Image src={item.imgUrl} alt='item.title' fill />
+                            </div>
                             <p className='defaultPara'>{item.title}</p>
                         </div>
                     ))}
