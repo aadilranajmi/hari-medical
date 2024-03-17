@@ -14,7 +14,12 @@ const Header = () => {
         <header className="main-header">
             <div className="nav-area">
                 <Link href="/" className="logo">
-                    <Image src="/images/hari-medical-logo.png" width={165} height={45} alt='Hari Medical Logo' />
+                    <Image
+                        src="/images/hari-medical-logo.png"
+                        width={165}
+                        height={45}
+                        alt="Hari Medical Logo"
+                    />
                 </Link>
 
                 <div className="nav-left">
@@ -27,11 +32,16 @@ const Header = () => {
                     <Hidden mdUp>
                         <MobileNav />
                     </Hidden>
-                    <Button variant="contained" sx={{
-                        borderRadius: "2rem"
-                    }}>
-                        <Link href="/">Contact Us</Link>
-                    </Button>
+                    <Hidden mdDown>
+                        <Button
+                            variant="contained"
+                            sx={{
+                                borderRadius: '2rem',
+                            }}
+                        >
+                            <Link href="/">Contact Us</Link>
+                        </Button>
+                    </Hidden>
                 </div>
             </div>
         </header>

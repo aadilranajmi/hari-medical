@@ -9,44 +9,58 @@ export const menuItemsData = [
     },
     {
         title: 'Treatments',
-        url: '/Treatments',
+        url: '/treatments',
         submenu: [
             {
-                title: 'Web Design',
-                url: '/web-design',
+                title: 'Treatments',
+                url: '/treatments',
             },
             {
-                title: 'Web Development',
-                url: '/web-dev',
-                submenu: [
-                    {
-                        title: 'Frontend',
-                        url: '/frontend',
-                    },
-                    {
-                        title: 'Backend',
-                        url: '/backend',
-                        // submenu: [
-                        //     {
-                        //         title: 'NodeJS',
-                        //         url: '/node',
-                        //     },
-                        //     {
-                        //         title: 'PHP',
-                        //         url: '/php',
-                        //     },
-                        // ],
-                    },
-                ],
+                title: 'Treatments',
+                url: '/treatments',
+                // submenu: [
+                //     {
+                //         title: 'Frontend',
+                //         url: '/frontend',
+                //     },
+                //     {
+                //         title: 'Backend',
+                //         url: '/backend',
+                //         // submenu: [
+                //         //     {
+                //         //         title: 'NodeJS',
+                //         //         url: '/node',
+                //         //     },
+                //         //     {
+                //         //         title: 'PHP',
+                //         //         url: '/php',
+                //         //     },
+                //         // ],
+                //     },
+                // ],
+            },
+            // {
+            //     title: 'SEO',
+            //     url: '/seo',
+            // },
+        ],
+    },
+    {
+        title: 'Theraphy',
+        url: '/therapy',
+        submenu: [
+            {
+                title: 'Theraphy',
+                url: '/therapy',
             },
             {
-                title: 'SEO',
-                url: '/seo',
+                title: 'Theraphy',
+                url: '/therapy',
             },
         ],
     },
     {
-        title: 'About',
-        url: '/about',
+        title: 'Wellness Packages',
+        url: '/wellness-packages',
     },
 ];
