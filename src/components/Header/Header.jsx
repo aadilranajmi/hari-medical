@@ -39,7 +39,7 @@ const Header = () => {
                                 borderRadius: '2rem',
                             }}
                         >
-                            <Link href="/">Contact Us</Link>
+                            <a href="tel:+91 98115 73361">Contact Us</a>
                         </Button>
                     </Hidden>
                 </div>

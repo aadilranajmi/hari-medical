@@ -75,17 +75,17 @@ const Footer = () => {
                         </Typography>
                         <ul>
                             <li>
-                                <a href="/" target="_blank" rel="nofollow">
+                                <a href="https://www.facebook.com/people/Shree-Hari-Medical-Center/61556691110342/" target="_blank" rel="nofollow">
                                     <FacebookIcon />
                                 </a>
                             </li>
                             <li>
-                                <a href="/" target="_blank" rel="nofollow">
+                                <a href="https://www.instagram.com/shreeharimedicalcenter/" target="_blank" rel="nofollow">
                                     <InstagramIcon />
                                 </a>
                             </li>
                             <li>
-                                <a href="/" target="_blank" rel="nofollow">
+                                <a href="https://youtube.com/@ShreeHariMedicalCenter" target="_blank" rel="nofollow">
                                     <YouTubeIcon />
                                 </a>
                             </li>

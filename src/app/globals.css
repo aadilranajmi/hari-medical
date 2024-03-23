@@ -450,6 +450,13 @@ a {
     .treatmentWorkMain .treatmentWorkMainContent::after {
         display: none;
     }
+    .treatmentWorkMain
+        .treatmentWorkMainContent
+        .treatmentWorkMainContentImg
+        img {
+        object-fit: contain;
+        padding: 0.5rem;
+    }
 }
 
 /* welcomeHom */
@@ -510,6 +517,10 @@ a {
     }
     .welcomeHome .welcomeHomeList li {
         width: 135px;
+    }
+    .welcomeHome .welcomeHomeList .welcomeImg img {
+        object-fit: contain;
+        padding: 0.5rem;
     }
 }
 /* serviceHome */
