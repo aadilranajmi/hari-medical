@@ -408,6 +408,19 @@ a {
     position: relative;
     width: 130px;
 }
+.treatmentWorkMain .treatmentWorkMainContent .treatmentWorkMainContentImg {
+    position: relative;
+    width: 90px;
+    height: 90px;
+    background: #00a2e3;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.treatmentWorkMain .treatmentWorkMainContent .treatmentWorkMainContentImg img {
+    object-fit: none;
+}
 .treatmentWorkMain .treatmentWorkMainContent p {
     text-align: center;
 }
@@ -456,6 +469,19 @@ a {
     list-style: none;
     display: flex;
     gap: 2rem;
+}
+.welcomeHome .welcomeHomeList .welcomeImg {
+    position: relative;
+    width: 90px;
+    height: 90px;
+    background: #00a2e3;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.welcomeHome .welcomeHomeList .welcomeImg img {
+    object-fit: none;
 }
 .welcomeHome .welcomeHomeList li {
     background: #fff;

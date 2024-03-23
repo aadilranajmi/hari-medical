@@ -1,5 +1,6 @@
 import { homeData } from '@/static/homeData';
 import { Typography } from '@mui/material';
+import Image from 'next/image';
 
 const TreatmentWorks = () => {
     const treatmentData = homeData.treatmentWork;
@@ -13,8 +14,15 @@ const TreatmentWorks = () => {
                 <ul className="treatmentWorkMain">
                     {treatmentData.map((item) => (
                         <li className="treatmentWorkMainContent">
-                            <div className="mainCircle"></div>
-                            <p className='defaultPara'>{item.title}</p>
+                            <div className="treatmentWorkMainContentImg">
+                                <Image
+                                    src={item.imgUrl}
+                                    width={60}
+                                    height={60}
+                                    alt={item.title}
+                                />
+                            </div>
+                            <p className="defaultPara">{item.title}</p>
                         </li>
                     ))}
                 </ul>

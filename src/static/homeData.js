@@ -34,59 +34,59 @@ export const homeData = {
     treatmentWork: [
         {
             uid: uuid(),
-            imgUrl: '/images/services/potli_sek_therapie.jpg',
+            imgUrl: '/images/icons/ancient.png',
             title: 'Ancient',
         },
         {
             uid: uuid(),
-            imgUrl: '/images/services/potli_sek_therapie.jpg',
+            imgUrl: '/images/icons/holistic_treatment.png',
             title: 'Holistic Treatment',
         },
         {
             uid: uuid(),
-            imgUrl: '/images/services/potli_sek_therapie.jpg',
+            imgUrl: '/images/icons/cure_from_root.png',
             title: 'Cure From The Root',
         },
         {
             uid: uuid(),
-            imgUrl: '/images/services/potli_sek_therapie.jpg',
+            imgUrl: '/images/icons/no_chemical_used.png',
             title: 'No Chemical Used',
         },
         {
             uid: uuid(),
-            imgUrl: '/images/services/potli_sek_therapie.jpg',
+            imgUrl: '/images/icons/no_side_effects.png',
             title: 'No Side Effect',
         },
         {
             uid: uuid(),
-            imgUrl: '/images/services/potli_sek_therapie.jpg',
+            imgUrl: '/images/icons/oldest_medicine_system.png',
             title: 'Oldest Medicine  System',
         },
     ],
     welcomeHome: [
         {
             uid: uuid(),
-            imgUrl: '/images/services/potli_sek_therapie.jpg',
+            imgUrl: '/images/icons/authentic_traditional_therapies.png',
             title: 'Authentic And Traditional Therapies',
         },
         {
             uid: uuid(),
-            imgUrl: '/images/services/potli_sek_therapie.jpg',
+            imgUrl: '/images/icons/one_kind_treatments.png',
             title: 'One Of A Kind Treatments',
         },
         {
             uid: uuid(),
-            imgUrl: '/images/services/potli_sek_therapie.jpg',
+            imgUrl: '/images/icons/natural_remedies.png',
             title: 'Natural Remedies',
         },
         {
             uid: uuid(),
-            imgUrl: '/images/services/potli_sek_therapie.jpg',
+            imgUrl: '/images/icons/years_of_experience.png',
             title: '30+ Years Of Experience',
         },
         {
             uid: uuid(),
-            imgUrl: '/images/services/potli_sek_therapie.jpg',
+            imgUrl: '/images/icons/natural_remedies.png',
             title: 'Natural Remedies',
         },
     ],

@@ -1,6 +1,7 @@
 import { homeData } from '@/static/homeData';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import { Button } from '@mui/material';
+import Image from 'next/image';
 
 const WelcomeHome = () => {
     const welcomeHomeData = homeData.welcomeHome;
@@ -21,7 +22,14 @@ const WelcomeHome = () => {
                 <ul className="welcomeHomeList">
                     {welcomeHomeData.map((item) => (
                         <li>
-                            <div className="mainCircle"></div>
+                            <div className="welcomeImg">
+                                <Image
+                                    src={item.imgUrl}
+                                    width={60}
+                                    height={60}
+                                    alt={item.title}
+                                />
+                            </div>
                             <span>{item.title}</span>
                         </li>
                     ))}
