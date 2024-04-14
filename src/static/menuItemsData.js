@@ -15,38 +15,25 @@ export const menuItemsData = [
         // url: '/treatments',
         submenu: [
             {
-                title: 'Treatments',
+                title: 'What is Panchakarma?',
                 url: "/",
-                // url: '/treatments',
             },
             {
-                title: 'Treatments',
+                title: 'Ayurvedic Nasal Detox/Sinus Treatments',
                 url: "/",
-                // url: '/treatments',
-                // submenu: [
-                //     {
-                //         title: 'Frontend',
-                // url: "/"        ,
-                // url: '/frontend',
-                //     },
-                //     {
-                //         title: 'Backend',
-                // url: "/"        ,
-                // url: '/backend',
-                //         // submenu: [
-                //         //     {
-                //         //         title: 'NodeJS',
-                // url: "/"        //         ,
-                // url: '/node',
-                //         //     },
-                //         //     {
-                //         //         title: 'PHP',
-                // url: "/"        //         ,
-                // url: '/php',
-                //         //     },
-                //         // ],
-                //     },
-                // ],
+            },
+
+            {
+                title: 'Ayurvedic Therapeutic Enemas ( Vasti)',
+                url: "/",
+            },
+            {
+                title: 'Ayurvedic Therapeutic Purgation (Virechana)',
+                url: "/",
+            },
+            {
+                title: 'Ayurvedic Therapeutic Emesis (Vamana)',
+                url: "/",
             },
             // {
             //     title: 'SEO',
@@ -59,18 +46,18 @@ export const menuItemsData = [
         title: 'Theraphy',
         url: "/",
         // url: '/therapy',
-        submenu: [
-            {
-                title: 'Theraphy',
-                url: "/",
-                // url: '/therapy',
-            },
-            {
-                title: 'Theraphy',
-                url: "/",
-                // url: '/therapy',
-            },
-        ],
+        // submenu: [
+        //     {
+        //         title: 'Theraphy',
+        //         url: "/",
+        //         // url: '/therapy',
+        //     },
+        //     {
+        //         title: 'Theraphy',
+        //         url: "/",
+        //         // url: '/therapy',
+        //     },
+        // ],
     },
     {
         title: 'Wellness Packages',
