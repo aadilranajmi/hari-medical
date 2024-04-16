@@ -10,6 +10,11 @@ export const heroBannerContent = {
     breadcrumbTitle: "Ayurvedic Massage Treatments",
     bgImg: "/images/services/ayurvedic-massage/bg.jpg",
   },
+  suryaChikitsa: {
+    title: "Surya Chikitsa",
+    breadcrumbTitle: "Surya Chikitsa",
+    bgImg: "/images/services/surya-chikitsa/bg.jpg",
+  },
 };
 
 export const ayurvedicMassage = [

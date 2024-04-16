@@ -724,31 +724,33 @@ a {
   margin-top: 0.5rem;
   font-size: 0.9rem;
 }
-.potliMassage .imgContent {
+.potliMassage .imgContent,
+.suryaChikitsa .imgContent {
   position: relative;
   display: grid;
   align-items: center;
   gap: 2rem;
   grid-template-columns: repeat(2, 1fr);
   max-width: 100%;
-  width: 900px;
+  width: 1000px;
   margin: 1.5rem auto;
 }
-.potliMassage .imgContent .serviceImg {
+.potliMassage .imgContent .serviceImg,
+.suryaChikitsa .imgContent .serviceImg {
   position: relative;
   min-height: 250px;
 }
 .potliMassage .imgContent .imgContentData p {
   margin-bottom: 1.5rem;
 }
-.ayurvedicMassage .servicesContentMain p b {
+.servicesContent .servicesContentMain p b {
   font-size: 1rem;
 }
-.ayurvedicMassage .servicesContentMain ul {
+.servicesContent .servicesContentMain ul {
   margin-left: 1rem;
   margin-bottom: 1rem;
 }
-.ayurvedicMassage .servicesContentMain ul li {
+.servicesContent .servicesContentMain ul li {
   font-size: 0.9rem;
 }
 .ayurvedicMassage .servicesContentMain .servicesContentMainImg {
