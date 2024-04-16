@@ -1,3 +1,5 @@
+import HomeBlog from "@/components/Home/HomeBlog";
+import HomeFaq from "@/components/Home/HomeFaq";
 import HeroBanner from "@/components/services/HeroBanner";
 import ReadMoreLess from "@/components/uiComponent/ReadMoreLess";
 import { ayurvedicMassage, heroBannerContent } from "@/static/services";
@@ -41,6 +43,8 @@ const AyurvedicMassage = () => {
           </div>
         </div>
       </section>
+      <HomeFaq />
+      <HomeBlog />
     </>
   );
 };
