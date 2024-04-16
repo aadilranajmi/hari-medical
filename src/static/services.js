@@ -15,6 +15,11 @@ export const heroBannerContent = {
     breadcrumbTitle: "Surya Chikitsa",
     bgImg: "/images/services/surya-chikitsa/bg.jpg",
   },
+  mittiShirodhara: {
+    title: "Ayurvedic Mitti Shirodhara Therapie (Hydrotherapy)",
+    breadcrumbTitle: "Hydrotherapy",
+    bgImg: "/images/services/surya-chikitsa/bg.jpg",
+  }
 };
 
 export const ayurvedicMassage = [

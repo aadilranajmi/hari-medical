@@ -743,14 +743,14 @@ a {
 .potliMassage .imgContent .imgContentData p {
   margin-bottom: 1.5rem;
 }
-.servicesContent .servicesContentMain p b {
+.servicesContent p b {
   font-size: 1rem;
 }
-.servicesContent .servicesContentMain ul {
+.servicesContent ul {
   margin-left: 1rem;
   margin-bottom: 1rem;
 }
-.servicesContent .servicesContentMain ul li {
+.servicesContent ul li {
   font-size: 0.9rem;
 }
 .ayurvedicMassage .servicesContentMain .servicesContentMainImg {

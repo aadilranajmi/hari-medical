@@ -62,7 +62,7 @@ const SuryaChikitsa = () => {
             </div>
             <div className="serviceImg">
               <Image
-                src="/images/services/potli-massage/potli-massage-benefit.jpg"
+                src="/images/services/surya-chikitsa/surya-chikitsa.jpg"
                 fill
                 alt="Benfit of Potli Massage"
               />
