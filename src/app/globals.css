@@ -741,3 +741,58 @@ a {
 .potliMassage .imgContent .imgContentData p {
   margin-bottom: 1.5rem;
 }
+.ayurvedicMassage .servicesContentMain p b {
+  font-size: 1rem;
+}
+.ayurvedicMassage .servicesContentMain ul {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+.ayurvedicMassage .servicesContentMain ul li {
+  font-size: 0.9rem;
+}
+.ayurvedicMassage .servicesContentMain .servicesContentMainImg {
+  position: relative;
+  min-height: 500px;
+  object-fit: contain;
+  margin: 1rem 0;
+}
+.ayurvedicMassage .servicesContentMain .servicesContentMainCard {
+  margin-bottom: 2rem;
+}
+.readMoreLessmainContent {
+  position: relative;
+}
+.readMoreBtnExpand {
+  transition: background 0.1s;
+  transform: translateY(-1.5625rem);
+  right: 0;
+  bottom: -25px;
+  text-align: center;
+  background-image: radial-gradient(
+      circle farthest-corner at bottom right,
+      white,
+      rgba(255, 255, 255, 0) 160px
+    ),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  width: 100%;
+  height: 5.5rem;
+  position: absolute;
+}
+.readMoreBtnExpandMore {
+  background-image: none;
+}
+.readMoreBtnExpand button {
+  position: absolute;
+  right: 2px;
+  bottom: 0;
+  font-size: 14px;
+  color: #0c71c3;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
