@@ -30,6 +30,11 @@ export const heroBannerContent = {
     breadcrumbTitle: "Jal Chikitsa Therapie",
     bgImg: "/images/services/jal-chikitsa/bg.jpg",
   },
+  bastiChikitsa: {
+    title: "Basti Chikitsa",
+    breadcrumbTitle: "Basti Chikitsa",
+    bgImg: "/images/services/basti-chikitsa/bg.jpg",
+  },
 };
 
 export const ayurvedicMassage = [
