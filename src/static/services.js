@@ -24,7 +24,12 @@ export const heroBannerContent = {
     title: "Kati Basti/ Kati Vasti",
     breadcrumbTitle: "Kati Basti/ Kati Vasti",
     bgImg: "/images/services/kati-basti-vasti/bg.jpg",
-  }
+  },
+  jalChikitsa: {
+    title: "Jal Chikitsa Therapie",
+    breadcrumbTitle: "Jal Chikitsa Therapie",
+    bgImg: "/images/services/jal-chikitsa/bg.jpg",
+  },
 };
 
 export const ayurvedicMassage = [
