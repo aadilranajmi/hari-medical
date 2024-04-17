@@ -19,6 +19,11 @@ export const heroBannerContent = {
     title: "Ayurvedic Mitti Shirodhara Therapie (Hydrotherapy)",
     breadcrumbTitle: "Hydrotherapy",
     bgImg: "/images/services/surya-chikitsa/bg.jpg",
+  },
+  katiBastiVasti: {
+    title: "Kati Basti/ Kati Vasti",
+    breadcrumbTitle: "Kati Basti/ Kati Vasti",
+    bgImg: "/images/services/kati-basti-vasti/bg.jpg",
   }
 };
 
