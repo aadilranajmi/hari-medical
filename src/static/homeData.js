@@ -95,46 +95,55 @@ export const homeData = {
             uid: uuid(),
             imgUrl: '/images/services/potli_sek_therapie.jpg',
             title: 'Potli Sek Therapie',
+            link: "/potli-massage"
         },
         {
             uid: uuid(),
             imgUrl: '/images/services/jal_chikitsa_therapie.jpg',
             title: 'Jal Chikitsa Therapie',
+            link: "/jal-chikitsa"
         },
         {
             uid: uuid(),
             imgUrl: '/images/services/teil_shirodhara.jpg',
             title: 'Teil Shirodhara',
+            link: "/"
         },
         {
             uid: uuid(),
             imgUrl: '/images/services/mitti_shirodhara.jpg',
             title: 'Mitti Shirodhara',
+            link: "/mitti-shirodhara",
         },
         {
             uid: uuid(),
             imgUrl: '/images/services/vasti_therapie.jpg',
             title: 'Vasti Therapie',
+            link: "/kati-basti-vasti"
         },
         {
             uid: uuid(),
             imgUrl: '/images/services/enema_panchakarma.jpg',
             title: 'Enema Panchakarma',
+            link: "/basti-chikitsa"
         },
         {
             uid: uuid(),
             imgUrl: '/images/services/acupressure_treatment.jpg',
             title: 'Acupressure Treatment',
+            link: "/"
         },
         {
             uid: uuid(),
             imgUrl: '/images/services/surya_chikitsa.jpg',
             title: 'Surya Chikitsa',
+            link: "/surya-chikitsa"
         },
         {
             uid: uuid(),
             imgUrl: '/images/services/ayurvedic_massage.jpg',
             title: 'Ayurvedic Massage',
+            link: "/ayruvedic-massage"
         },
     ],
     bestDoctor: [
