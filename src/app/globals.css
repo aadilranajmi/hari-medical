@@ -666,6 +666,7 @@ a {
 }
 .homeBlog .homeBlogMain {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin-top: 1.5rem;
   gap: 2rem;
@@ -689,7 +690,7 @@ a {
 /* services pages */
 .servicesContent .container {
   position: relative;
-  padding: 2rem 0 0;
+  padding: 2rem 1rem 0;
 }
 .servicesContent p {
   font-size: 0.9rem;
@@ -698,6 +699,7 @@ a {
 .servicesContent h2 {
   position: relative;
   padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 .servicesContent h2::after {
   content: "";
@@ -724,6 +726,30 @@ a {
   margin-top: 0.5rem;
   font-size: 0.9rem;
 }
+.servicesContent p b {
+  font-size: 1rem;
+}
+.servicesContent ul {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+.servicesContent ul li {
+  font-size: 0.9rem;
+}
+@media (max-width: 767.98px) {
+  .serviceHeroBanner {
+    height: 200px;
+  }
+  .servicesContent .serviceHeroBanner .content {
+    padding: 0.5rem;
+  }
+  .servicesContent .serviceHeroBanner .content h1 {
+    font-size: 1.5rem;
+  }
+  .servicesContent h2 {
+    font-size: 1.3rem;
+  }
+}
 .potliMassage .imgContent,
 .suryaChikitsa .imgContent {
   position: relative;
@@ -738,29 +764,29 @@ a {
 .potliMassage .imgContent .serviceImg,
 .suryaChikitsa .imgContent .serviceImg {
   position: relative;
-  min-height: 250px;
+  height: 250px;
 }
 .potliMassage .imgContent .imgContentData p {
   margin-bottom: 1.5rem;
 }
-.servicesContent p b {
-  font-size: 1rem;
-}
-.servicesContent ul {
-  margin-left: 1rem;
-  margin-bottom: 1rem;
-}
-.servicesContent ul li {
-  font-size: 0.9rem;
-}
 .ayurvedicMassage .servicesContentMain .servicesContentMainImg {
   position: relative;
-  min-height: 500px;
+  height: 500px;
   object-fit: contain;
   margin: 1rem 0;
 }
 .ayurvedicMassage .servicesContentMain .servicesContentMainCard {
   margin-bottom: 2rem;
+}
+@media (max-width: 900px) {
+  .ayurvedicMassage .servicesContentMain .servicesContentMainImg {
+    height: 300px;
+  }
+}
+@media (max-width: 767.98px) {
+  .ayurvedicMassage .servicesContentMain .servicesContentMainImg {
+    height: 150px;
+  }
 }
 .readMoreLessmainContent {
   position: relative;
@@ -797,4 +823,16 @@ a {
   display: flex;
   align-items: center;
   gap: 0.2rem;
+}
+@media (max-width: 767.98px) {
+  .potliMassage .imgContent, .suryaChikitsa .imgContent {
+    grid-template-columns: minmax(0, auto);
+  }
+  .suryaChikitsa .imgContent .serviceImg {
+    order: 1;
+    height: 200px;
+  }
+  .suryaChikitsa .imgContent .imgContentData {
+    order: 2;
+  }
 }
