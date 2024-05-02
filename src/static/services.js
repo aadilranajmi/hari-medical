@@ -35,6 +35,11 @@ export const heroBannerContent = {
     breadcrumbTitle: "Basti Chikitsa",
     bgImg: "/images/services/basti-chikitsa/bg.jpg",
   },
+  shirodhara: {
+    title: "Teil Shirodhara",
+    breadcrumbTitle: "Teil Shirodhara",
+    bgImg: "/images/services/basti-chikitsa/bg.jpg",
+  },
 };
 
 export const ayurvedicMassage = [

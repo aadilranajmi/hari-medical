@@ -824,6 +824,13 @@ a {
   align-items: center;
   gap: 0.2rem;
 }
+.imgRelative {
+  position: relative;
+  height: 500px;
+}
+.shirodhara h3 {
+  margin-bottom: 0.5rem;
+}
 @media (max-width: 767.98px) {
   .potliMassage .imgContent, .suryaChikitsa .imgContent {
     grid-template-columns: minmax(0, auto);
@@ -834,5 +841,8 @@ a {
   }
   .suryaChikitsa .imgContent .imgContentData {
     order: 2;
+  }
+  .imgRelative {
+    height: 300px;
   }
 }
