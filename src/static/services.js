@@ -40,6 +40,11 @@ export const heroBannerContent = {
     breadcrumbTitle: "Teil Shirodhara",
     bgImg: "/images/services/basti-chikitsa/bg.jpg",
   },
+  acupressure: {
+    title: "Acupressure Treatment",
+    breadcrumbTitle: "Acupressure Treatment",
+    bgImg: "/images/services/basti-chikitsa/bg.jpg",
+  },
 };
 
 export const ayurvedicMassage = [
