@@ -107,7 +107,7 @@ export const homeData = {
             uid: uuid(),
             imgUrl: '/images/services/teil_shirodhara.jpg',
             title: 'Teil Shirodhara',
-            link: "/"
+            link: "/shirodhara"
         },
         {
             uid: uuid(),
@@ -131,7 +131,7 @@ export const homeData = {
             uid: uuid(),
             imgUrl: '/images/services/acupressure_treatment.jpg',
             title: 'Acupressure Treatment',
-            link: "/"
+            link: "/acupressure"
         },
         {
             uid: uuid(),

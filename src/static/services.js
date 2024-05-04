@@ -38,12 +38,12 @@ export const heroBannerContent = {
   shirodhara: {
     title: "Teil Shirodhara",
     breadcrumbTitle: "Teil Shirodhara",
-    bgImg: "/images/services/basti-chikitsa/bg.jpg",
+    bgImg: "/images/services/shirodhara/bg.jpg",
   },
   acupressure: {
     title: "Acupressure Treatment",
     breadcrumbTitle: "Acupressure Treatment",
-    bgImg: "/images/services/basti-chikitsa/bg.jpg",
+    bgImg: "/images/services/acupressure/bg.jpg",
   },
 };
 

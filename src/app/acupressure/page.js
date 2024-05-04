@@ -55,7 +55,7 @@ const Acupressure = () => {
             </div>
             <div className="serviceImg">
               <Image
-                src="/images/services/jal-chikitsa/jal-chikitsa.jpg"
+                src="/images/services/acupressure/acupressure.jpg"
                 fill
                 alt="Benfit of Kati Basti and Vasti Massage"
               />

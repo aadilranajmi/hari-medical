@@ -46,7 +46,7 @@ const Shirodhara = () => {
           </p>
           <div className="imgRelative">
             <Image
-              src="/images/services/surya-chikitsa/surya-chikitsa.jpg"
+              src="/images/services/shirodhara/shirodhara.jpg"
               alt="Benfit of Potli Massage"
               fill
             />
